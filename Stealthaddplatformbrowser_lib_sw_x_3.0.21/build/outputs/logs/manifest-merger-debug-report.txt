@@ -1,0 +1,39 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Android\Android_Studio_Project\Test_java\Stealthaddplatformbrowser_lib_sw_x_3.0.21\src\main\AndroidManifest.xml:2:1-15:12
+INJECTED from D:\Android\Android_Studio_Project\Test_java\Stealthaddplatformbrowser_lib_sw_x_3.0.21\src\main\AndroidManifest.xml:2:1-15:12
+INJECTED from D:\Android\Android_Studio_Project\Test_java\Stealthaddplatformbrowser_lib_sw_x_3.0.21\src\main\AndroidManifest.xml:2:1-15:12
+	package
+		ADDED from D:\Android\Android_Studio_Project\Test_java\Stealthaddplatformbrowser_lib_sw_x_3.0.21\src\main\AndroidManifest.xml:3:5-32
+		INJECTED from D:\Android\Android_Studio_Project\Test_java\Stealthaddplatformbrowser_lib_sw_x_3.0.21\src\main\AndroidManifest.xml
+		INJECTED from D:\Android\Android_Studio_Project\Test_java\Stealthaddplatformbrowser_lib_sw_x_3.0.21\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\Android\Android_Studio_Project\Test_java\Stealthaddplatformbrowser_lib_sw_x_3.0.21\src\main\AndroidManifest.xml:2:11-69
+meta-data#com.google.android.gms.version
+ADDED from D:\Android\Android_Studio_Project\Test_java\Stealthaddplatformbrowser_lib_sw_x_3.0.21\src\main\AndroidManifest.xml:5:5-7:65
+	android:value
+		ADDED from D:\Android\Android_Studio_Project\Test_java\Stealthaddplatformbrowser_lib_sw_x_3.0.21\src\main\AndroidManifest.xml:7:9-62
+	android:name
+		ADDED from D:\Android\Android_Studio_Project\Test_java\Stealthaddplatformbrowser_lib_sw_x_3.0.21\src\main\AndroidManifest.xml:6:9-54
+application
+ADDED from D:\Android\Android_Studio_Project\Test_java\Stealthaddplatformbrowser_lib_sw_x_3.0.21\src\main\AndroidManifest.xml:9:5-13:19
+meta-data#com.google.android.gms.ads.AD_MANAGER_APP
+ADDED from D:\Android\Android_Studio_Project\Test_java\Stealthaddplatformbrowser_lib_sw_x_3.0.21\src\main\AndroidManifest.xml:10:9-12:35
+	android:value
+		ADDED from D:\Android\Android_Studio_Project\Test_java\Stealthaddplatformbrowser_lib_sw_x_3.0.21\src\main\AndroidManifest.xml:12:13-33
+	android:name
+		ADDED from D:\Android\Android_Studio_Project\Test_java\Stealthaddplatformbrowser_lib_sw_x_3.0.21\src\main\AndroidManifest.xml:11:13-69
+uses-sdk
+INJECTED from D:\Android\Android_Studio_Project\Test_java\Stealthaddplatformbrowser_lib_sw_x_3.0.21\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\Android\Android_Studio_Project\Test_java\Stealthaddplatformbrowser_lib_sw_x_3.0.21\src\main\AndroidManifest.xml
+INJECTED from D:\Android\Android_Studio_Project\Test_java\Stealthaddplatformbrowser_lib_sw_x_3.0.21\src\main\AndroidManifest.xml
+INJECTED from D:\Android\Android_Studio_Project\Test_java\Stealthaddplatformbrowser_lib_sw_x_3.0.21\src\main\AndroidManifest.xml
+INJECTED from D:\Android\Android_Studio_Project\Test_java\Stealthaddplatformbrowser_lib_sw_x_3.0.21\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\Android\Android_Studio_Project\Test_java\Stealthaddplatformbrowser_lib_sw_x_3.0.21\src\main\AndroidManifest.xml
+		ADDED from D:\Android\Android_Studio_Project\Test_java\Stealthaddplatformbrowser_lib_sw_x_3.0.21\src\main\AndroidManifest.xml
+		INJECTED from D:\Android\Android_Studio_Project\Test_java\Stealthaddplatformbrowser_lib_sw_x_3.0.21\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\Android\Android_Studio_Project\Test_java\Stealthaddplatformbrowser_lib_sw_x_3.0.21\src\main\AndroidManifest.xml
+		ADDED from D:\Android\Android_Studio_Project\Test_java\Stealthaddplatformbrowser_lib_sw_x_3.0.21\src\main\AndroidManifest.xml
+		INJECTED from D:\Android\Android_Studio_Project\Test_java\Stealthaddplatformbrowser_lib_sw_x_3.0.21\src\main\AndroidManifest.xml

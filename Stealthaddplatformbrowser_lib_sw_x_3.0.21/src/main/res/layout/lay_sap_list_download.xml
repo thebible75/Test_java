@@ -1,0 +1,116 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="13.3dp"
+        android:layout_marginRight="13.3dp">
+
+        <RelativeLayout
+            android:id="@+id/sap_download_list_item_checkbox_layout"
+            android:layout_width="23.3dp"
+            android:layout_height="60dp"
+            android:visibility="gone"
+            >
+            <CheckBox
+                android:id="@+id/chk_download"
+                android:layout_width="13.3dp"
+                android:layout_height="13.3dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/res_sap_web_download_checkbox_selector"
+                android:button="@null"
+                android:focusable="false"
+                android:clickable="false"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_toRightOf="@id/sap_download_list_item_checkbox_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="13.3dp"
+            >
+            
+            <RelativeLayout
+                android:id="@+id/sap_download_list_item_fileicon_layout"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:layout_centerVertical="true"
+                >
+                <View
+                    android:layout_width="22dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/download_file_icon"
+                    android:layout_alignParentRight="true"
+                    />
+                <TextView
+                    android:id="@+id/sap_download_list_item_extension_txt"
+                    android:textSize="8sp"
+                    android:textColor="@android:color/white"
+                    android:layout_marginTop="5dp"
+                    android:maxLength="4"
+                    android:lines="1"
+                    android:layout_width="23.3dp"
+                    android:layout_height="13.5dp"
+                    android:background="@drawable/download_filename_icon"
+                    android:gravity="center"
+                    />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/list_download_lay2"
+                android:layout_toRightOf="@id/sap_download_list_item_fileicon_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginLeft="13.3dp"
+                >
+
+                <TextView
+                    android:id="@+id/sap_download_filename"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:singleLine="true"
+                    android:lines="1"
+                    android:textSize="12sp"
+                    android:textColor="@color/sap_web_common_text_title_color"
+                     />
+
+                <TextView
+                    android:id="@+id/sap_download_filesize"
+                    android:layout_marginTop="6dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:lines="1"
+                    android:textSize="10sp"
+                    android:textColor="@color/sap_web_common_text_sub2_color"
+                    />
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/sap_web_download_top_line"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentTop="true"
+            android:background="@color/sap_web_common_dev_line"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/sap_web_common_dev_line"
+            />
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

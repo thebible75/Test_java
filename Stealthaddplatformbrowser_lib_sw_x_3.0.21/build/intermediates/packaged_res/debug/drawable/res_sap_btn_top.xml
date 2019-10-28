@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<item
+		android:state_pressed="true"
+		android:drawable="@drawable/res_sap_btn_top_over" /> <!-- pressed -->
+	<item
+		android:state_selected="true"
+		android:drawable="@drawable/res_sap_btn_top_over" /> <!-- selected -->
+	<item
+		android:state_pressed="false"
+		android:state_focused="true"
+		android:drawable="@drawable/res_sap_btn_top_over" />
+	<item
+		android:drawable="@drawable/res_sap_btn_top_out" /> <!-- default -->
+</selector>

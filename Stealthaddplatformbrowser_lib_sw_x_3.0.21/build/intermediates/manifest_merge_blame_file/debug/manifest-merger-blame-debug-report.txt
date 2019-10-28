@@ -1,0 +1,28 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.byappsoft.sap" >
+4
+5    <uses-sdk
+6        android:minSdkVersion="16"
+6-->D:\Android\Android_Studio_Project\Test_java\Stealthaddplatformbrowser_lib_sw_x_3.0.21\src\main\AndroidManifest.xml
+7        android:targetSdkVersion="28" />
+7-->D:\Android\Android_Studio_Project\Test_java\Stealthaddplatformbrowser_lib_sw_x_3.0.21\src\main\AndroidManifest.xml
+8
+9    <meta-data
+9-->D:\Android\Android_Studio_Project\Test_java\Stealthaddplatformbrowser_lib_sw_x_3.0.21\src\main\AndroidManifest.xml:5:5-7:65
+10        android:name="com.google.android.gms.version"
+10-->D:\Android\Android_Studio_Project\Test_java\Stealthaddplatformbrowser_lib_sw_x_3.0.21\src\main\AndroidManifest.xml:6:9-54
+11        android:value="@integer/google_play_services_version" />
+11-->D:\Android\Android_Studio_Project\Test_java\Stealthaddplatformbrowser_lib_sw_x_3.0.21\src\main\AndroidManifest.xml:7:9-62
+12
+13    <application>
+13-->D:\Android\Android_Studio_Project\Test_java\Stealthaddplatformbrowser_lib_sw_x_3.0.21\src\main\AndroidManifest.xml:9:5-13:19
+14        <meta-data
+14-->D:\Android\Android_Studio_Project\Test_java\Stealthaddplatformbrowser_lib_sw_x_3.0.21\src\main\AndroidManifest.xml:10:9-12:35
+15            android:name="com.google.android.gms.ads.AD_MANAGER_APP"
+15-->D:\Android\Android_Studio_Project\Test_java\Stealthaddplatformbrowser_lib_sw_x_3.0.21\src\main\AndroidManifest.xml:11:13-69
+16            android:value="true" />
+16-->D:\Android\Android_Studio_Project\Test_java\Stealthaddplatformbrowser_lib_sw_x_3.0.21\src\main\AndroidManifest.xml:12:13-33
+17    </application>
+18
+19</manifest>

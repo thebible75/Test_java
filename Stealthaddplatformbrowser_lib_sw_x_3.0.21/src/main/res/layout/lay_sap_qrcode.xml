@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ Copyright (C) 2008 ZXing authors
+
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+ -->
+<FrameLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+	<SurfaceView
+		android:id="@+id/preview_view"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_centerInParent="true"/>
+
+	<com.byappsoft.sap.zxing.client.android.ViewfinderView
+		android:id="@+id/viewfinder_view"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:background="#00000000"/>
+
+	<LinearLayout
+		android:id="@+id/result_view"
+		android:orientation="vertical"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:background="#b0000000"
+		android:visibility="visible"
+		android:padding="4dip">
+
+		<LinearLayout
+			android:orientation="horizontal"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:gravity="center"
+	        android:padding="12dip">
+	
+			<LinearLayout
+				android:orientation="vertical"
+				android:layout_width="wrap_content"
+				android:layout_height="fill_parent"
+				android:gravity="right|center_vertical">
+	
+				<ImageView
+					android:id="@+id/barcode_image_view"
+					android:layout_width="160dip"
+					android:layout_height="wrap_content"
+					android:maxWidth="160dip"
+					android:maxHeight="160dip"
+					android:layout_marginBottom="4dip"
+					android:adjustViewBounds="true"
+					android:scaleType="centerInside"/>
+	
+			</LinearLayout>
+	
+		</LinearLayout>
+
+	</LinearLayout>
+
+
+	<!-- Title Area -->
+	<RelativeLayout
+		android:layout_width="match_parent"
+		android:layout_height="@dimen/web_common_title_height"
+		android:background="@color/sap_web_common_color"
+		android:gravity="top|center_vertical"
+		>
+		<RelativeLayout
+			android:id="@+id/sap_qrcode_back_btn"
+			android:layout_width="50dp"
+			android:layout_height="match_parent">
+			<View
+				android:layout_width="8dp"
+				android:layout_height="14.6dp"
+				android:background="@drawable/top_back_btn"
+				android:layout_centerVertical="true"
+				android:layout_marginLeft="13.3dp"
+				/>
+		</RelativeLayout>
+	    <TextView
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:gravity="center"
+			android:textColor="@android:color/white"
+			android:paddingLeft="50dp"
+			android:paddingRight="50dp"
+			android:singleLine="true"
+			android:maxLines="1"
+			android:textSize="14sp"
+			android:text="@string/qrcode"
+			/>
+		<RelativeLayout
+			android:id="@+id/qrcode_history_view"
+			android:layout_width="50dp"
+			android:layout_height="@dimen/web_common_title_height"
+			android:layout_alignParentRight="true"
+			>
+			<View
+				android:layout_width="20.dp"
+				android:layout_height="19.3dp"
+				android:background="@drawable/history_btn"
+				android:layout_centerVertical="true"
+				android:layout_alignParentRight="true"
+				android:layout_marginRight="13.3dp"
+				/>
+		</RelativeLayout>
+	</RelativeLayout>
+
+	<!--Bottom View-->
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="40dp"
+		android:layout_gravity="bottom"
+		android:background="#8f9bab"
+		>
+
+	    <TextView
+			android:id="@+id/status_view"
+			android:layout_width="match_parent"
+			android:lines="1"
+			android:gravity="center"
+			android:layout_height="40dp"
+			android:background="#33888888"
+			android:text="@string/sap_qrcode_bottom_txt"
+			android:textColor="#ffffffff"
+			android:textSize="14sp"
+			/>
+
+	</LinearLayout>
+	
+
+</FrameLayout>

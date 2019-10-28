@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="266.6dp"
+    android:layout_height="266.6dp"
+    android:layout_gravity="center"
+    android:background="#00000000"
+    android:orientation="vertical"
+    >
+
+    <ImageView
+        android:id="@+id/sap_alert_popup_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:src="@drawable/res_sap_notiba_img_ko"
+        android:scaleType="fitXY"
+        android:contentDescription="@null"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/button1"
+        android:background="#ffffff"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/sap_res_btn_can"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="#3abec0"
+            android:onClick="clickHandler"
+            android:text="@string/cmn_action_cancel"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/sap_res_btn_ok"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="#3abec0"
+            android:onClick="clickHandler"
+            android:text="@string/cmn_action_ok"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <!-- Real More Start -->
+    <LinearLayout
+        android:id="@+id/layer_more"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_height="185dp"
+        android:orientation="vertical"
+        android:background="@android:color/white"
+        >
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/pager"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:requiresFadingEdge="horizontal" />
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/radioBtnOne"
+                android:layout_width="8dp"
+                android:layout_height="8dp"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="2dp"
+                android:background="@drawable/res_sap_dot_selector"
+                android:button="@null"
+                android:checked="true" />
+            <RadioButton
+                android:id="@+id/radioBtnTwo"
+                android:layout_width="8dp"
+                android:layout_height="8dp"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="2dp"
+                android:background="@drawable/res_sap_dot_selector"
+                android:button="@null" />
+        </RadioGroup>
+    </LinearLayout>
+    <!-- Layout END More Area -->
+
+    <!-- Layout Mor Back ground -->
+    <View
+        android:id="@+id/layer_more_bg"
+        android:layout_above="@id/layer_more"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#80000000"
+        android:clickable="true"
+        android:focusableInTouchMode="true"
+        />
+
+</RelativeLayout>

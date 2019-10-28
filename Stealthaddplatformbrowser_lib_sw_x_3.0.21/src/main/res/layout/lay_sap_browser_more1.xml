@@ -1,0 +1,296 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="170dp"
+    android:orientation="vertical"
+    android:focusableInTouchMode="true"
+    android:splitMotionEvents="false"
+    >
+
+    <LinearLayout
+        android:id="@+id/layer_more1_top"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:orientation="horizontal"
+        >
+
+        <RelativeLayout
+            android:id="@+id/lay_qr"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:focusableInTouchMode="true">
+
+            <ImageButton
+                android:id="@+id/ib_qr"
+                android:layout_width="26.6dp"
+                android:layout_height="26.6dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="18.6dp"
+                android:background="@drawable/bottom_menu_default_icon01"
+                android:clickable="false" />
+
+            <TextView
+                android:id="@+id/tv_qr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_below="@id/ib_qr"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:clickable="false"
+                android:text="@string/qrcode"
+                android:textColor="@color/sap_web_more_icon_txt"
+                android:textSize="12sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/lay_add_home"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:focusableInTouchMode="true"
+            >
+
+            <ImageButton
+                android:id="@+id/ib_addhome"
+                android:layout_width="26.6dp"
+                android:layout_height="26.6dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="18.6dp"
+                android:background="@drawable/bottom_menu_default_icon13"
+                android:clickable="false" />
+
+            <TextView
+                android:id="@+id/tv_addhome"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ib_addhome"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:text="@string/menu_addhome"
+                android:textColor="@color/sap_web_more_icon_txt"
+                android:textSize="12sp" />
+
+        </RelativeLayout>
+
+
+
+        <RelativeLayout
+            android:id="@+id/lay_bookmark"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:focusableInTouchMode="true">
+
+            <ImageButton
+                android:id="@+id/ib_bookmark"
+                android:layout_width="26.6dp"
+                android:layout_height="26.6dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="18.6dp"
+                android:background="@drawable/bottom_menu_default_icon03"
+                android:clickable="false" />
+
+            <TextView
+                android:id="@+id/tv_bookmark"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ib_bookmark"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:clickable="false"
+                android:text="@string/history_bookmarks"
+                android:textColor="@color/sap_web_more_icon_txt"
+                android:textSize="12sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/lay_share"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:focusableInTouchMode="true">
+
+            <ImageButton
+                android:id="@+id/ib_share"
+                android:layout_width="26.6dp"
+                android:layout_height="26.6dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="18.6dp"
+                android:background="@drawable/bottom_menu_default_icon04"
+                android:clickable="false" />
+
+            <TextView
+                android:id="@+id/tv_share"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ib_share"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:clickable="false"
+                android:text="@string/share"
+                android:textColor="@color/sap_web_more_icon_txt"
+                android:textSize="12sp" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layer_more1_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/lay_Incognito"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:focusableInTouchMode="true">
+
+            <ImageButton
+                android:id="@+id/ib_incognito"
+                android:layout_width="26.6dp"
+                android:layout_height="26.6dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="18.6dp"
+                android:background="@drawable/bottom_menu_default_icon05"
+                android:clickable="false" />
+
+            <TextView
+                android:id="@+id/tv_incognito"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ib_incognito"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:clickable="false"
+                android:text="@string/incognito"
+                android:textColor="@color/sap_web_more_icon_txt"
+                android:textSize="12sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/lay_copy"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:focusableInTouchMode="true">
+
+            <ImageButton
+                android:id="@+id/ib_copy"
+                android:layout_width="26.6dp"
+                android:layout_height="26.6dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="18.6dp"
+                android:background="@drawable/bottom_menu_default_icon06"
+                android:clickable="false" />
+
+            <TextView
+                android:id="@+id/tv_copy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_below="@id/ib_copy"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:clickable="false"
+                android:text="@string/link_copy"
+                android:textColor="@color/sap_web_more_icon_txt"
+                android:textSize="12sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/lay_tab"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:focusableInTouchMode="true">
+
+            <RelativeLayout
+                android:layout_marginTop="18.6dp"
+                android:layout_centerHorizontal="true"
+                android:layout_width="35dp"
+                android:layout_height="26.6dp"
+                android:id="@+id/lay_tab_icon_layout"
+                >
+                <ImageButton
+                    android:id="@+id/ib_tab"
+                    android:layout_width="35dp"
+                    android:layout_height="26.6dp"
+                    android:clickable="false"
+                    android:background="@drawable/bottom_menu_default_icon07"
+                    />
+                <TextView
+                    android:id="@+id/tv_tab_count"
+                    android:layout_width="24dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="9dp"
+                    android:clickable="false"
+                    android:gravity="center_horizontal"
+                    android:lines="1"
+                    android:text="1"
+                    android:textColor="@color/sap_web_more_icon_txt"
+                    android:textSize="11sp" />
+            </RelativeLayout>
+            <TextView
+                android:id="@+id/tv_tab"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_below="@id/lay_tab_icon_layout"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:clickable="false"
+                android:text="@string/tab"
+                android:textColor="@color/sap_web_more_icon_txt"
+                android:textSize="12sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/lay_capture"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:focusableInTouchMode="true">
+
+            <ImageButton
+                android:id="@+id/ib_capture"
+                android:layout_width="26.6dp"
+                android:layout_height="26.6dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="18.6dp"
+                android:background="@drawable/bottom_menu_default_icon08"
+                android:clickable="false" />
+
+            <TextView
+                android:id="@+id/tv_capture"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ib_capture"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:clickable="false"
+                android:text="@string/menu_capture"
+                android:textColor="@color/sap_web_more_icon_txt"
+                android:textSize="12sp" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

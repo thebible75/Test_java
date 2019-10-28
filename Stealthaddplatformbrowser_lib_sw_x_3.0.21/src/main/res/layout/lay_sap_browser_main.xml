@@ -1,0 +1,298 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <RelativeLayout
+        android:id="@+id/lay_sap_search_action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="-48dp"
+        android:orientation="horizontal"
+        android:background="@color/gray_light">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@+id/lay_option_menu_btn"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/res_sap_search_round_bg"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:descendantFocusability="beforeDescendants"
+            android:focusableInTouchMode="true"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/search"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:gravity="left|center_vertical"
+                android:hint="@string/search_hint"
+                android:paddingBottom="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="5dp"
+                android:singleLine="true"
+                android:maxLines="1"
+                android:textColor="@color/gray_dark"
+                android:textSize="17sp"
+                android:clickable="true"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                >
+            </TextView>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/lay_option_menu_btn"
+            android:layout_width="54dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/menu_btn"
+                android:layout_centerInParent="true"
+                android:clickable="false"
+                />
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:layout_below="@+id/lay_sap_search_action_bar">
+
+        <ProgressBar
+            android:id="@+id/activity_bar"
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:indeterminate="false"
+            android:indeterminateOnly="false"
+            android:maxHeight="1dip"
+            android:minHeight="1dip"
+            android:progressDrawable="@drawable/res_sap_progress" />
+
+        <!-- Recommend Search Layout -->
+        <RelativeLayout
+            android:id="@+id/lay_btn_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/activity_bar"
+            android:background="#ffffff"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:id="@+id/btn_left"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/res_sap_btn"
+                android:gravity="center"
+                android:singleLine="true"
+                android:maxLines="1"
+                android:text="@string/sap_browser_search_text"
+                android:textSize="@dimen/sap_browser_search_size" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dip"
+                android:background="@color/tlinecolor" />
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="5dp"
+                android:padding="1dip"
+                android:scrollbars="none">
+                <LinearLayout
+                    android:id="@+id/btn_group"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+                </LinearLayout>
+            </HorizontalScrollView>
+        </RelativeLayout>
+        <!-- END Recommend Search Layout -->
+
+        <View
+            android:id="@+id/lay_btn_group_line"
+            android:layout_width="match_parent"
+            android:layout_height="0.1dip"
+            android:layout_below="@+id/lay_btn_group"
+            android:background="@color/tlinecolor" />
+
+
+        <FrameLayout
+            android:id="@+id/content_frame"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/bottom_lay"
+            android:layout_below="@+id/lay_btn_group_line"
+            />
+
+
+        <!-- Bottom Action Btn Layout -->
+        <LinearLayout
+            android:id="@+id/bottom_lay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="#fff"
+            android:orientation="vertical">
+            <View
+                android:id="@+id/sap_web_bottom_top_dev_line"
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/sap_web_more_normal_line" />
+            <!-- Start Bottom Action Button Area -->
+            <LinearLayout
+                android:id="@+id/sap_web_bottom_action_layout"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:orientation="horizontal"
+                android:splitMotionEvents="false">
+                <RelativeLayout
+                    android:id="@+id/action_back_layout"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+                    <View
+                        android:id="@+id/action_back"
+                        android:layout_width="23.3dp"
+                        android:layout_height="23.3dp"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/res_sap_action_btn_back_selector"
+                        android:clickable="false"
+                        android:contentDescription="@string/cmn_action_back" />
+                </RelativeLayout>
+                <RelativeLayout
+                    android:id="@+id/action_setting_layout"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:visibility="gone">
+                    <View
+                        android:id="@+id/action_setting"
+                        android:layout_width="23.3dp"
+                        android:layout_height="23.3dp"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/res_sap_action_btn_setting_selector"
+                        android:clickable="false" />
+                </RelativeLayout>
+                <RelativeLayout
+                    android:id="@+id/action_forward_layout"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+                    <View
+                        android:id="@+id/action_forward"
+                        android:layout_width="23.3dp"
+                        android:layout_height="23.3dp"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/res_sap_action_btn_forward_selector"
+                        android:clickable="false"
+                        android:contentDescription="@string/action_forward" />
+                </RelativeLayout>
+                <RelativeLayout
+                    android:id="@+id/action_comment_layout"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:visibility="gone">
+                    <View
+                        android:id="@+id/action_comment"
+                        android:layout_width="23.3dp"
+                        android:layout_height="23.3dp"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/res_sap_action_btn_comment_selector"
+                        android:clickable="false" />
+                </RelativeLayout>
+                <RelativeLayout
+                    android:id="@+id/action_btn_more_layout"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+                    <View
+                        android:id="@+id/btn_more"
+                        android:layout_width="23.3dp"
+                        android:layout_height="23.3dp"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/res_sap_action_btn_more_selector"
+                        android:clickable="false"
+                        android:contentDescription="@null" />
+                </RelativeLayout>
+                <RelativeLayout
+                    android:id="@+id/action_btn_home_layout"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+                    <View
+                        android:id="@+id/btn_home"
+                        android:layout_width="23.3dp"
+                        android:layout_height="23.3dp"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/res_sap_action_btn_home_selector"
+                        android:clickable="false"
+                        android:contentDescription="@null" />
+                </RelativeLayout>
+                <RelativeLayout
+                    android:id="@+id/action_btn_pageinfo_layout"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+                    <View
+                        android:id="@+id/btn_pageinfo"
+                        android:layout_width="23.3dp"
+                        android:layout_height="23.3dp"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/res_sap_ic_action_refresh"
+                        android:clickable="false"
+                        android:contentDescription="@null" />
+                </RelativeLayout>
+            </LinearLayout>
+            <!-- END Bottom Action Button Area -->
+        </LinearLayout>
+
+        <!-- More Menu Layout -->
+        <include
+            android:id="@+id/sap_browser_more_expand"
+            layout="@layout/lay_sap_browser_more"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/bottom_lay"
+            android:visibility="gone"
+            />
+    </RelativeLayout>
+
+    <!-- Find In Page Layout-->
+    <include
+        android:id="@+id/web_page_search_layout"
+        layout="@layout/lay_sap_web_search"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:visibility="gone" />
+
+    <!-- Start Option Menu Layout -->
+    <include
+        android:id="@+id/inc_option_menu_layout"
+        layout="@layout/lay_sap_option_menu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        />
+    <!-- End Option Menu Layout -->
+
+</RelativeLayout>

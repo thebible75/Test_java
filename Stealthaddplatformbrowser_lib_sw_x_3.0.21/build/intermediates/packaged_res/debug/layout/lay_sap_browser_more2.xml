@@ -1,0 +1,123 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="170dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/layer_more2_top"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:orientation="horizontal"
+        android:splitMotionEvents="false">
+
+        <RelativeLayout
+            android:id="@+id/lay_pagesearch"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:focusableInTouchMode="true">
+
+            <ImageButton
+                android:id="@+id/ib_pagesearch"
+                android:layout_width="26.6dp"
+                android:layout_height="26.6dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="18.6dp"
+                android:background="@drawable/bottom_menu_default_icon09"
+                android:clickable="false" />
+
+            <TextView
+                android:id="@+id/tv_pagesearch"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ib_pagesearch"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:text="@string/menu_pagesearch"
+                android:textColor="@color/sap_web_more_icon_txt"
+                android:textSize="12sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/lay_download"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:focusableInTouchMode="true">
+
+            <ImageButton
+                android:id="@+id/ib_download"
+                android:layout_width="26.6dp"
+                android:layout_height="26.6dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="18.6dp"
+                android:background="@drawable/bottom_menu_default_icon10"
+                android:clickable="false" />
+
+            <TextView
+                android:id="@+id/tv_download"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ib_download"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:text="@string/action_download"
+                android:textColor="@color/sap_web_more_icon_txt"
+                android:textSize="12sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/lay_none1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/lay_none2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layer_more2_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/lay_none3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"></RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/lay_none4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"></RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/lay_none5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"></RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/lay_none6"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"></RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

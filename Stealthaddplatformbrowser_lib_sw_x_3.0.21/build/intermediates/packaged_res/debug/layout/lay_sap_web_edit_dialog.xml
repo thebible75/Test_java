@@ -1,0 +1,145 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/popup_bg02"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/sap_web_edit_dialog_title_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="10dp"
+                android:lineSpacingExtra="7dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:textColor="@color/sap_web_common_color"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:text="@string/cmn_download_file_edit_title"
+                />
+
+            <RelativeLayout
+                android:id="@+id/sap_web_edit_1_layout"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="210dp"
+                android:layout_height="33.3dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                >
+                <EditText
+                    android:id="@+id/sap_web_edit_1_edit"
+                    android:layout_width="210dp"
+                    android:layout_height="33.3dp"
+                    android:background="@drawable/input_box"
+                    android:paddingRight="35dp"
+                    android:paddingLeft="10dp"
+                    android:textSize="13sp"
+                    android:imeOptions="actionNext"
+                    android:inputType="text"
+                    />
+                <RelativeLayout
+                    android:id="@+id/sap_web_edit_1_del_layout"
+                    android:layout_width="35dp"
+                    android:layout_height="33.3dp"
+                    android:layout_alignParentRight="true"
+                    android:visibility="gone"
+                    >
+                    <View
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="15dp"
+                        android:layout_height="14.6dp"
+                        android:background="@drawable/popup_cancel"
+                        />
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/sap_web_edit_2_layout"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="210dp"
+                android:layout_height="33.3dp"
+                android:layout_marginBottom="10dp"
+                android:visibility="gone"
+                >
+                <EditText
+                    android:id="@+id/sap_web_edit_2_edit"
+                    android:layout_width="210dp"
+                    android:layout_height="33.3dp"
+                    android:background="@drawable/input_box"
+                    android:paddingRight="35dp"
+                    android:paddingLeft="10dp"
+                    android:textSize="13sp"
+                    android:imeOptions="actionDone"
+                    android:inputType="textUri"
+                    />
+                <RelativeLayout
+                    android:id="@+id/sap_web_edit_2_del_layout"
+                    android:layout_width="35dp"
+                    android:layout_height="33.3dp"
+                    android:layout_alignParentRight="true"
+                    android:visibility="gone"
+                    >
+                    <View
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="15dp"
+                        android:layout_height="14.6dp"
+                        android:background="@drawable/popup_cancel"
+                        />
+                </RelativeLayout>
+            </RelativeLayout>
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="-5dp"
+            >
+            <Button
+                android:id="@+id/sap_web_edit_dialog_negative_btn"
+                android:layout_width="115dp"
+                android:layout_height="34dp"
+                android:background="@drawable/sap_web_dialog_negative_btn"
+                android:text="@string/cmn_action_cancel"
+                android:textColor="@color/sap_web_popup_txt_color"
+
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/sap_web_edit_dialog_positive_btn"
+                android:layout_width="115dp"
+                android:layout_height="34dp"
+                android:background="@drawable/sap_web_dialog_positive_btn"
+                android:text="@string/cmn_action_ok"
+                android:textColor="@color/sap_web_popup_txt_color"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusableInTouchMode="true"
+    android:clickable="true"
+    >
+
+    <View
+        android:id="@+id/lay_option_menu_outside"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent"
+        />
+
+    <LinearLayout
+        android:id="@+id/lay_option_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="2dp"
+        android:layout_marginTop="48dp"
+        android:layout_below="@id/lay_sap_search_action_bar"
+        android:background="@drawable/res_option_menu_rect">
+
+        <RelativeLayout
+            android:id="@+id/action_add_bookmark"
+            android:layout_width="wrap_content"
+            android:layout_height="36.6dp">
+            <View
+                android:id="@+id/bookmark_icon"
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:contentDescription="@null"
+                android:gravity="center_vertical"
+                android:background="@drawable/menu_icon01"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="13.3dp"
+                >
+            </View>
+
+            <TextView
+                android:id="@+id/bookmark_icon_text"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/bookmark_icon"
+                android:layout_marginRight="15dp"
+                android:gravity="center_vertical"
+                android:text="@string/action_add_bookmark"
+                android:textSize="12sp"
+                android:textColor="@color/sap_common_dialog_txt" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.1dip"
+            android:background="@color/tlinecolor" />
+
+        <RelativeLayout
+            android:id="@+id/action_add_home"
+            android:layout_width="wrap_content"
+            android:layout_height="36.6dp">
+            <View
+                android:id="@+id/add_home_icon"
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:contentDescription="@null"
+                android:gravity="center_vertical"
+                android:background="@drawable/menu_icon02"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="13.3dp"
+                >
+            </View>
+
+            <TextView
+                android:id="@+id/add_home_icon_text"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/add_home_icon"
+                android:layout_marginRight="15dp"
+                android:gravity="center_vertical"
+                android:text="@string/menu_addhome"
+                android:textSize="12sp"
+                android:textColor="@color/sap_common_dialog_txt" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.1dip"
+            android:background="@color/tlinecolor" />
+
+        <RelativeLayout
+            android:id="@+id/action_page_find"
+            android:layout_width="wrap_content"
+            android:layout_height="36.6dp">
+            <View
+                android:id="@+id/page_find_icon"
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:contentDescription="@null"
+                android:gravity="center_vertical"
+                android:background="@drawable/menu_icon03"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="13.3dp"
+                >
+            </View>
+
+            <TextView
+                android:id="@+id/page_find_icon_text"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/page_find_icon"
+                android:layout_marginRight="15dp"
+                android:gravity="center_vertical"
+                android:text="@string/action_page_find"
+                android:textSize="12sp"
+                android:textColor="@color/sap_common_dialog_txt" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

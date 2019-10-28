@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/res_sap_list_bg"
+    android:gravity="center_vertical"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="43.3dp"
+        >
+
+        <ImageView
+            android:id="@+id/dir_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:contentDescription="@null"
+            android:gravity="center_vertical"
+            android:src="@drawable/folder_list_icon"
+            android:layout_marginRight="13.3dp"
+            android:layout_marginLeft="26.6dp"
+            >
+        </ImageView>
+
+        <TextView
+            android:id="@+id/dir_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/dir_icon"
+            android:gravity="center_vertical"
+            android:layout_marginRight="26.6dp"
+            android:maxLines="1"
+            android:textSize="17sp"
+            android:textColor="@color/sap_common_dialog_txt" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <item
+        android:icon="@drawable/menu_btn"
+        android:showAsAction="always"
+        android:title="More"
+        >
+        <menu>
+            <item android:icon="@drawable/menu_icon01" android:id="@+id/action_add_bookmark"    android:title="@string/action_add_bookmark" ></item>
+            <item android:icon="@drawable/menu_icon02" android:id="@+id/action_add_home"        android:title="@string/menu_addhome"></item>
+            <item android:icon="@drawable/menu_icon03" android:id="@+id/action_page_find"       android:title="@string/action_page_find"></item>
+        </menu>
+    </item>
+</menu>

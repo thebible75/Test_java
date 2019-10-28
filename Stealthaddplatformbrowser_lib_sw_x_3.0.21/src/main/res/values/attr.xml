@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="sap_attr_progressColor" format="reference|color" />
+    <attr name="sap_attr_arrowBackDrawable" format="integer" />
+    <attr name="sap_attr_arrowForwardDrawable" format="integer" />
+    <attr name="sap_attr_numberColor" format="reference|color"/>
+    <attr name="sap_attr_autoCompleteTitleColor" format="reference|color"/>
+    <attr name="sap_attr_autoCompleteUrlColor" format="reference|color"/>
+
+</resources>

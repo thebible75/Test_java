@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Custom NotiBar -->
+    <string name="noti_icon_1">電話</string>
+    <string name="noti_icon_2">カメラ</string>
+    <string name="noti_icon_3">カレンダー</string>
+    <string name="noti_icon_4">アラーム</string>
+    <string name="noti_icon_5">設定</string>
+
+    <!-- Notification Bar -->
+    <string name="sap_notfound_package_msg">接続されたアプリがありません. \nマイ<![CDATA[>]]>ノーティバー機能で設定してください</string>
+    <string name="notfound_app_msg">接続可能な %1$sアプリがありません。</string>
+    <string name="noti_icon_my">マイ</string>
+    <string name="noti_icon_game">ゲーム</string>
+    <string name="noti_icon_fun">Fun</string>
+    <string name="noti_icon_web_search">ウェブ検索</string>
+
+    <!-- My - My APP List -->
+    <string name="tab_bookmark">マイアプリ</string>
+    <string name="tab_bookmark_title">マイアプリのリスト</string>
+    <string name="tab_bookmark_sub_title">アプリのアイコンを長押し時の編集可能</string>
+    <string name="tab_bookmark_recommend_title">マイアプリおすすめリスト</string>
+    <string name="tab_empty_myapp_list_msg">登録されたマイアプリ情報がありません。\ nマイアプリを追加してください。</string>
+
+    <!-- My - MY APP Additional -->
+    <string name="tab_bookmark_add_title">マイアプリに追加</string>
+    <string name="tab_bookmark_add_sub_title">お気に入りのアプリを選択</string>
+    <string-array name="bookmark_add_app_show_type">
+        <item>最近 (インストール順)</item>
+        <item>基本 (インストール順)</item>
+        <item>昇順</item>
+        <item>降順</item>
+    </string-array>
+
+    <!-- My - Notification Bar -->
+    <string name="tab_noti_title">ノーティバー</string>
+    <string name="tab_noti_sub_title">よく使う機能の3つの選択</string>
+    <string name="my_max_error">すでに3つのボタンが選択されました</string>
+    <string name="select_app">使用アプリを設定してください</string>
+    <string name="my_save_error">ボタンをより選択してください. \nノーティバーボタンは3つの選択が必要です.</string>
+    <string name="my_save_ok">保存しました.</string>
+
+    <!-- My - Notification Bar Skin -->
+    <string name="tab_skin">スキン</string>
+    <string name="tab_skin_title">ノーティバースキン</string>
+    <string name="tab_skin_sub_title">目的のスキンを選択して入手してください</string>
+
+    <!-- My - SKin Store -->
+    <string name="tab_skin_store_title">スキンストア</string>
+    <string name="tab_skin_store_sub_title">希望のスキンをダウンロード</string>
+    <string name="none_network_msg1">ネットワーク接続が必要にしていません.</string>
+    <string name="none_network_msg2">しばらくしてもう一度お試しください.</string>
+    <string name="skin_down_wifi_msg">WIFI接続されていません. \n続行する場合は、使用されるデータプランに応じて課金することができます. \n続行しますか?</string>
+    <string name="none_network_retry_msg">再試行する</string>
+    <string name="skin_down_msg">ノーティバーのスキンをダウンロードしていただけますか？</string>
+    <string name="skin_down_success_msg">スキンのダウンロードが完了しました.</string>
+    <string name="skin_down_fail_msg">スキンファイルのダウンロードに失敗しました. \nネットワークの状態を確認してください.</string>
+    <string name="skin_already_down_msg">すでにダウンロードしてました.</string>
+
+    <!-- My - Setting -->
+    <string name="setting_sub_title">ノーティバーの設定</string>
+    <string name="sap_display">アルリムチャンステータスバーのON / OFF</string>
+    <string name="version">アプリのバージョン</string>
+    <string name="search_version">3.2.0(Huvle)</string>
+    <string name="setting_sync">同期</string>
+    <string name="setting_sync_msg">同期を続行しますか？</string>
+    <string name="req_file_auth">ファイルの権限が必要です！</string>
+
+    <!-- My - Huvle Browser or WebView -->
+    <string name="action_add_bookmark">ブックマークに追加</string>
+    <string name="action_page_find">ページ内検索</string>
+    <string name="sap_bookmark_add">ブックマークに追加しました.</string>
+    <string name="sap_bookmark_already_add">既に登録されています.</string>
+    <string name="app_nm">ハッブル検索</string>
+    <string name="action_new_tab">新しいタブで開く</string>
+    <string name="action_share">共有</string>
+    <string name="action_history">履歴</string>
+    <string name="action_bookmarks">ブックマーク</string>
+    <string name="action_copy">URLをコピー</string>
+    <string name="action_forward">これから</string>
+    <string name="action_open">オープン</string>
+    <string name="menu_download">画像の保存</string>
+    <string name="download_pending">ダウンロードを開始</string>
+    <string name="location">位置(地域) 許可</string>
+    <string name="dialog_download">%1$s ファイルをダウンロードしますか？</string>
+    <string name="title_warning">警告</string>
+    <string name="message_text_copied">テキストがクリップボードにコピーされました.</string>
+    <string name="message_link_copied">リンクがクリップボードにコピーされました.</string>
+    <string name="message_blocked_local">ロード時にローカルファイルがブロックされました.</string>
+    <string name="suggestion">検索</string>
+    <string name="message_untrusted_certificate">このサイトの証明書が有効ではありません。それでも続行しますか？</string>
+    <string name="title_form_resubmission">フォーム再送信</string>
+    <string name="message_form_resubmission">データを再送信しますか？</string>
+    <string name="message_location">\nユーザーの位置を使用しますか？</string>
+    <string name="action_allow">許可</string>
+    <string name="action_dont_allow">許可しない</string>
+    <string name="title_sign_in">登録</string>
+    <string name="hint_username">ユーザー名</string>
+    <string name="hint_password">パスワード</string>
+    <string name="title_file_chooser">ファイルの選択</string>
+    <string name="sap_browser_search_text">おすすめ</string>
+    <string name="menu_nightmode">ナイトモード</string>
+    <string name="memo_page">コメントページです.</string>
+    <string name="memo_page_connection_failure_msg">現在のページの読み込みが完了した後のコメントの作成が可能です.</string>
+
+    <!-- Setting Download path -->
+    <string name="sap_setting_down_mkdir_title">フォルダの追加</string>
+    <string name="sap_setting_down_new_dir_txt">新しいフォルダ</string>
+    <string name="sap_setting_down_no_dir_txt">フォルダがありません</string>
+    <string name="sap_setting_down_mkdir_success_msg">フォルダの作成</string>
+    <string name="sap_setting_down_rename_dir_success_msg">フォルダの変更</string>
+    <string name="sap_setting_down_delete_dir_success_msg">フォルダを削除する</string>
+    <string name="sap_setting_down_mkdir_fail_msg">同じフォルダがあります</string>
+    <string name="sap_setting_down_delete_fail_msg">フォルダを削除することができません</string>
+    <string name="sap_setting_down_mkdir_empty_dir_name_msg">フォルダ名を入力してください</string>
+    <string name="sap_setting_down_modify_dir_title">フォルダ名の変更</string>
+    <string name="sap_setting_down_del_confirm_msg">フォルダ内のすべてのファイルが削除されます。\ nフォルダを削除しますか？</string>
+    <string name="sap_setting_down_dir_name_validate_msg">フォルダ名に特殊文字は(<![CDATA["-, _"]]>)のみ可能です.</string>
+    <string name="sap_setting_down_dir_start_name_validate_msg"><![CDATA["."]]> で始まるフォルダ名を \n使用することができません.</string>
+    <string name="cannot_download">\"http\" あるいは \"https\"パスだけをダウンロードすることができます.</string>
+    <string name="download_no_sdcard_dlg_title">SDカードがありません.</string>
+    <string name="download_no_sdcard_dlg_msg">ファイルを保存するには、USBストレージデバイスが必要です.</string>
+    <string name="download_sdcard_busy_dlg_title">USBストレージデバイスを使用することができません.</string>
+    <string name="download_sdcard_busy_dlg_msg">ストレージデバイスを使用中です。ダウンロードを許可するためにアルリムチャンでUSBストレージデバイスを取り出してください.</string>
+
+    <!-- Browser Setting -->
+    <string name="sap_setting_web_view_type">ウェブ画面の表示方法の設定</string>
+    <string name="agent_default">基本</string>
+    <string name="agent_desktop">デスクトップ</string>
+    <string name="agent_mobile">モバイル</string>
+    <string name="agent_custom">ユーザー定義</string>
+    <string name="title_user_agent">ユーザー定義</string>
+    <string name="sap_setting_lang">ブラウザの言語設定</string>
+    <string name="sap_setting_voice_lang">音声検索の設定</string>
+    <string name="sap_setting_voice_lang_engine">音声検索エンジンの設定</string>
+    <string name="google">Google</string>
+    <string name="baidu">Baidu</string>
+    <string name="sap_setting_voice_lang_input">音声検索の入力言語の設定</string>
+    <string name="lang_ch">中国</string>
+    <string name="lang_kr">韓国語</string>
+    <string name="lang_en">英語</string>
+    <string name="lang_vi">ベトナム</string>
+    <string name="sap_setting_download_path">ダウンロードパス</string>
+    <string name="sap_setting_home">ホームページの設定</string>
+    <string name="title_custom_homepage">ユーザーホームページ</string>
+    <string name="action_blank">空白のページ</string>
+    <string name="action_webpage">Webページ</string>
+    <string name="sap_setting_search">検索エンジンの設定</string>
+    <string name="custom_url">カスタムURL</string>
+    <string name="search_google">Google</string>
+    <string name="search_huvle">Huvle</string>
+    <string name="search_naver">Naver</string>
+    <string name="search_daum">Daum</string>
+    <string name="search_nate">Nate</string>
+    <string name="search_baidu">Baidu</string>
+    <string name="search_yahoo">Yahoo</string>
+    <string name="advanced">高級 設定</string>
+    <string name="home">ホームページ</string>
+
+    <!-- Advanced Setting -->
+    <string name="http_proxy_title">HTTP Proxy</string>
+    <string name="password">パスワードを保存する</string>
+    <string name="recommended">おすすめ</string>
+    <string name="cache">終了時、インターネット一時ファイルを削除する</string>
+    <string name="clear_history_exit">終了時の履歴を消去</string>
+    <string name="clear_cookies_exit">終了時 Cookieの 削除</string>
+    <string name="java">JavaScript を有効に</string>
+    <string name="block">画像ブロック</string>
+    <string name="window">新しいウィンドウでサイトを開く</string>
+    <string name="cookies">Cookieを受け入れる</string>
+    <string name="clear_cookies">Cookieの削除</string>
+    <string name="incognito_cookies">匿名モードでCookieを許可する</string>
+    <string name="wideViewPort">モバイル横モード</string>
+    <string name="restore">起動時にタブ回復</string>
+    <string name="fullScreenOption">使用時ステータスバーを非表示に</string>
+    <string name="google_suggestions">おすすめ検索</string>
+    <string name="powered_by_google">Powered by Googleの</string>
+    <string name="clear_cache">インターネット一時ファイルを削除する</string>
+    <string name="message_cache_cleared">インターネット一時ファイルの削除</string>
+    <string name="history">履歴を消去</string>
+    <string name="dialog_history">履歴すべてを削除しますか？</string>
+    <string name="message_clear_history">履歴削除</string>
+    <string name="dialog_cookies">クッキーをすべて削除しますか？</string>
+    <string name="message_cookies_cleared">クッキー削除</string>
+    <string name="size">文字サイズ</string>
+
+    <!-- Advanced Setting - HTTP Proxy -->
+    <string name="http_proxy_choice_none">なし</string>
+    <string name="http_proxy_choice_huvle">HUVLE</string>
+    <string name="user_define_proxy_title">Define Proxy</string>
+    <string name="user_define_proxy_host_empty_msg">Host 情報を入力してください</string>
+    <string name="user_define_proxy_port_empty_msg">Port 情報を入力してください</string>
+
+    <!-- Advanced Setting - Text Size -->
+    <string name="title_text_size">文字サイズ</string>
+    <string name="size_largest">最も大きく</string>
+    <string name="size_large">大きく</string>
+    <string name="size_normal">通常</string>
+    <string name="size_small">小さく</string>
+    <string name="size_smallest">最も小さく</string>
+
+    <!--Browser Bottom Area-->
+    <string name="qrcode">QRコード</string>
+    <string name="voice">音声検索</string>
+    <string name="history_bookmarks">記録/ブックマーク</string>
+    <string name="share">共有</string>
+    <string name="incognito">匿名モード</string>
+    <string name="link_copy">リンクをコピー</string>
+    <string name="normal_mode">通常モード</string>
+    <string name="tab">タブの管理</string>
+    <string name="menu_capture">画面キャプチャ</string>
+    <string name="menu_comment">コメント</string>
+    <string name="menu_visithistory">履歴</string>
+    <string name="menu_pagesearch">ページ内検索</string>
+    <string name="action_download">ダウンロード</string>
+    <string name="menu_addhome">ホーム画面に追加</string>
+
+    <!-- Browser - Capture Menu -->
+    <string name="capture_view">現在の画面のキャプチャ</string>
+    <string name="capture_all">フルスクリーンキャプチャ</string>
+    <string name="capture_complete">画面キャプチャが完了しました.</string>
+    <string name="capture_failed">画面キャプチャに失敗しました.</string>
+
+    <!-- Browser - Page Info -->
+    <string name="page_info_add">新しいページを追加</string>
+    <string name="sap_page_delete_msg">全体タブを削除しますか?</string>
+    <string name="sap_page_delete_notfound_msg">削除タブ情報がありません.</string>
+    <string name="sap_page_empty_msg">タブ情報がありません. \n新しいタブを追加してください!</string>
+
+    <!-- Browser - Voice Search -->
+    <string name="sap_speech_loading_msg">音声収集中</string>
+    <string name="sap_speech_btn_msg">タッチした状態で教えてください</string>
+    <string name="sap_speech_start_msg">音声検索を開始</string>
+    <string name="sap_speech_error_no_match">検索キーワードがありません.</string>
+    <string name="sap_speech_error_common">音声検索が失敗しました.</string>
+    <string name="sap_speech_error_timeout">音声検索が失敗しました(タイムアウト).</string>
+
+    <!-- Browser - Download Manager -->
+    <string name="sap_setting_down_path_error_msg">正確なパスを入力してください.</string>
+    <string name="sap_web_download_empty_msg">ダウンロードした記録がありません.</string>
+    <string name="sap_download_delete_all_msg">フルダウンロードファイルを削除しますか?</string>
+    <string name="sap_download_delete_msg">ダウンロードしたファイルを削除しますか?</string>
+    <string name="sap_download_etc">etc</string>
+    <string name="sap_download_not_select_file">選択されたファイルはありません.</string>
+    <string name="today">今日</string>
+    <string name="month_before">最近</string>
+    <string name="month_after">月前</string>
+    <string name="select_all">全選択</string>
+    <string name="select_clear_all">全解除</string>
+    <string name="no_select_item">選択された項目がありません.</string>
+
+    <!-- Browser - BookMark & History -->
+    <string name="sap_bookmark_edit_title_empty">タイトルを入力してください.</string>
+    <string name="sap_bookmark_edit_path_empty">パスを入力してください.</string>
+    <string name="sap_history_not_found_msg">削除履歴情報はありません.</string>
+    <string name="sap_history_delete_msg">全体の記録を消去しますか?</string>
+    <string name="sap_history_delete_fail_msg">履歴の削除に失敗しました.</string>
+    <string name="sap_bookmark_not_found_msg">削除ブックマーク情報はありません.</string>
+    <string name="sap_bookmark_delete_msg">全体のブックマークを削除しますか?</string>
+    <string name="title_edit_bookmark">ブックマークを編集</string>
+    <string name="sap_web_bookmark_empty_msg">ブックマークがありません.</string>
+    <string name="sap_web_history_empty_msg">履歴情報はありません.</string>
+    <string name="dialog_bookmark">このブックマークに何をしますか?</string>
+    <string name="dialog_import_error">ブックマークをエクスポートするブラウザを見つかりません.</string>
+    <string name="message_import">ブックマークエクスポートジム</string>
+    <string name="tab_hb_history">記録</string>
+    <string name="tab_hb_bookmarks">ブックマーク</string>
+    <string name="message_clear_bookmarks">ブックマークの削除されました.</string>
+
+    <!-- Browser - Share -->
+    <string name="dialog_title_share">このページを共有する</string>
+
+    <!-- Browser - QRCode -->
+    <string name="sap_qrcode_list_title">QRコードの検索履歴</string>
+    <string name="sap_qrcode_bottom_txt">QRコードを自動的に認識します.</string>
+    <string name="sap_qrcode_empty_msg">QRコード検索履歴はありません. \nQRコードを検索してください!</string>
+    <string name="sap_qrcode_error_msg">カメラ認識に問題が発生しました。デバイスを再起動してください</string>
+    <string name="sap_qrcode_success_msg">バーコード認識完了</string>
+    <string name="sap_qrcode_fail_msg">バーコード認識を失敗しました</string>
+    <string name="sap_qrcode_delete_msg">QRコードの検索履歴を削除しますか?</string>
+
+    <!-- License -->
+    <string name="app_noti_name">ハッブル宇宙望遠鏡のブラウザ</string>
+    <string name="mpl_license">Mozilla Public License v. 2.0</string>
+    <string name="android_open_source_project">Androidのオープンソースプロジェクト</string>
+    <string name="apache">Apacheのライセンス2.0</string>
+    <string name="hphosts_ad_server_list">hpHosts Ad Server List</string>
+    <string name="freeware">Freeware</string>
+
+    <!-- Search Setting -->
+    <string name="search_hint">Search</string>
+    <string name="search_mode_mobile">Mobile</string>
+    <string name="search_down">/storage/emulated/0Download</string>
+    <string name="search_homepage_huvle">x.huvle.com</string>
+    <string name="search_engine_google">Google</string>
+
+    <!-- Search in Page -->
+    <string name="webview_find_avail_msg">この機能は、API 16以上から使用可能です</string>
+
+    <!-- Common String -->
+    <string name="cmn_action_ok">確認</string>
+    <string name="cmn_action_cancel">キャンセル</string>
+    <string name="cmn_action_save">保存</string>
+    <string name="cmn_action_edit">修正</string>
+    <string name="cmn_action_delete">削除</string>
+    <string name="cmn_action_back">バック</string>
+    <string name="cmn_action_yes">はい</string>
+    <string name="cmn_action_no">いいえ</string>
+    <string name="cmn_untitled">タイトルなし</string>
+    <string name="cmn_finish_msg"><![CDATA["バック"]]> ボタンをもう一度押すと終了します.</string>
+    <string name="cmn_save_success_msg">保存されている.</string>
+    <string name="cmn_save_fail_msg">保存に失敗しました.</string>
+    <string name="cmn_setting">設定</string>
+    <string name="cmn_delete_all">すべて削除</string>
+    <string name="cmn_setting_default">基本</string>
+    <string name="cmn_setting_custom">ユーザー定義</string>
+    <string name="cmn_title_error">エラー</string>
+    <string name="cmn_request_msg">サーバーへの要求しています.\nしばらくお待ちください.</string>
+    <string name="cmn_download_file_edit_title">ファイル名の変更</string>
+    <string name="cmn_web_error_url">%1$sのWebページをロードすることはできません.</string>
+    <string name="cmn_web_error_title">Webページの読み込みに失敗しました.</string>
+    <string name="cmn_already_used_msg">すでに使用中です</string>
+
+
+    <string name="home_faile_msg">ホーム画面のショートカットの追加に失敗しました.</string>
+
+</resources>

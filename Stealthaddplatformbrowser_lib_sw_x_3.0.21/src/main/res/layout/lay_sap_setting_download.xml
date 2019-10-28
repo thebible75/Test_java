@@ -1,0 +1,167 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    >
+
+    <RelativeLayout
+        android:id="@+id/lay_setting_download_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/web_common_title_height"
+        android:background="@color/sap_web_common_color"
+        >
+        <RelativeLayout
+            android:id="@+id/sap_setting_down_title_back_btn"
+            android:layout_width="50dp"
+            android:layout_height="match_parent">
+            <View
+                android:layout_width="8dp"
+                android:layout_height="14.6dp"
+                android:background="@drawable/top_back_btn"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="13.3dp"
+                />
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/sap_title_txt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:paddingLeft="50dp"
+            android:paddingRight="86.6dp"
+            android:maxLines="1"
+            android:textSize="14sp"
+            />
+
+        <RelativeLayout
+            android:id="@+id/sap_set_down_mkdir_btn_layout"
+            android:layout_width="43.3dp"
+            android:layout_height="match_parent"
+            android:layout_toLeftOf="@+id/sap_set_down_save_btn_layout"
+            >
+            <View
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:background="@drawable/folder_plus_btn"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="13.3dp"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/sap_set_down_save_btn_layout"
+            android:layout_width="43.3dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            >
+            <View
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:background="@drawable/folder_setting_btn"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="13.3dp"
+                />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <!--horizontal scroll-->
+    <LinearLayout
+        android:id="@+id/lay_setting_filepath_layout"
+        android:layout_width="match_parent"
+        android:layout_height="43.3dp"
+        android:background="@color/sap_web_common_color"
+        android:orientation="horizontal"
+        android:layout_below="@id/lay_setting_download_title"
+        >
+
+        <HorizontalScrollView
+            android:id="@+id/lay_setting_filepath_scroll"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scrollbars="none"
+            >
+            <LinearLayout
+                android:id="@+id/lay_setting_filepath_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                >
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <RelativeLayout
+            android:id="@+id/sap_set_down_folder_prev_btn_layout"
+            android:layout_width="43.3dp"
+            android:layout_height="match_parent"
+
+            >
+            <View
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:background="@drawable/folder_back_btn"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="13.3dp"
+                android:layout_marginLeft="13.3dp"
+                />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/sap_down_bottom_layout"
+        android:layout_below="@id/lay_setting_filepath_layout"
+        >
+        <!-- List -->
+        <RelativeLayout
+            android:id="@+id/dir_list_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"
+            >
+            <ListView
+                android:id="@+id/dir_list_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbars="none"
+                android:divider="#00000000"
+                android:dividerHeight="0dp"
+                />
+        </RelativeLayout>
+
+        <!-- Empty -->
+        <RelativeLayout
+            android:id="@+id/dir_empty_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"
+            >
+            <include
+                layout="@layout/lay_sap_empty_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+        </RelativeLayout>
+        <!--Progress -->
+        <RelativeLayout
+            android:id="@+id/dir_progress_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"
+            >
+            <include
+                layout="@layout/lay_sap_progress_dialog"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

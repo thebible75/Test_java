@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name" translatable="false">Test_java</string>
+    <string name="action_settings" translatable="false">Settings</string>
+    <string name="action_email" translatable="false">Email</string>
+    <string name="action_web" translatable="false">Web</string>
+    <string name="default_notification_channel_id" translatable="false">Channel ID</string>
+    <string name="default_notification_channel_name" translatable="false">Test</string>
+</resources>

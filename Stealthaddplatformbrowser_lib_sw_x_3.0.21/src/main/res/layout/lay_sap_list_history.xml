@@ -1,0 +1,76 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:layout_marginLeft="13.3dp"
+    android:layout_marginRight="13.3dp"
+    android:background="@drawable/res_sap_web_long_tab_list_bg"
+    >
+
+    <RelativeLayout
+        android:id="@+id/list_history_lay1"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+       >
+        <ImageView
+            android:id="@+id/iv_history_img"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="13.3dp"
+           />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/list_history_lay2"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_toLeftOf="@+id/list_history_lay3"
+        android:layout_toRightOf="@id/list_history_lay1"
+        android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_history_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:singleLine="true"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:textColor="#535659"
+                />
+
+            <TextView
+                android:id="@+id/tv_history_url"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:singleLine="true"
+                android:textSize="10sp"
+                android:textColor="#939698"
+                />
+
+    </LinearLayout>
+    <RelativeLayout
+        android:id="@+id/list_history_lay3"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentRight="true">
+        <View
+            android:id="@+id/iv_history_star"
+            android:layout_width="16.6dp"
+            android:layout_height="16.6dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/sap_web_common_dev_line"
+        android:layout_alignParentBottom="true"
+        />
+
+</RelativeLayout>

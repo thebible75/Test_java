@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="noti_background_black">#383838</color>
+    <color name="noti_background_white">#FFF</color>
+    <color name="drawer_background">#ffffff</color>
+    <color name="black">#ff000000</color>
+    <color name="light">#ffa0a0a0</color>
+    <color name="gray_dark">#999999</color>
+    <color name="gray_light">#f8f8f8</color>
+    <color name="gray_medium">#cdcdcd</color>
+    <color name="white">#ffffff</color>
+    <color name="gray_extra_dark">#1b1b1b</color>
+    <color name="gray_list_bg">#0d000000</color>
+    <color name="dark_text">#3f3f3f</color>
+    <color name="linecolor">#d8d8d8</color>
+    <color name="tlinecolor">#bdbdbd</color>
+    <color name="popliencolor">#d6d6d6</color>
+    <color name="noti_search_text">#7ed417</color>
+    <color name="noti_title_black">#ff000000</color>
+    <color name="noti_title_white">#fff</color>
+    <color name="noti_title_season">#292929</color>
+    <color name="tab_content">#f9f9f9</color>
+    <color name="tab_subtitle_line">#b7babd</color>
+    <color name="tab_bookmark_title">#e74c3c</color>
+    <color name="tab_bookmark_sub_title">#35383b</color>
+    <color name="tab_bookmark_icon_name">#222</color>
+    <color name="tab_bookmark_add_title">#f4f4f4</color>
+    <color name="tab_search_setting_title">#535659</color>
+    <color name="tab_search_setting_sub_title">#939698</color>
+    <color name="noti_skin_over">#aeaeae</color>
+    <color name="noti_skin_black">#363636</color>
+    <color name="noti_skin_white">#fff</color>
+    <color name="noti_skin_spring">#1fbcc2</color>
+    <color name="noti_skin_summer">#ff7247</color>
+    <color name="noti_skin_fall">#d76e3a</color>
+    <color name="noti_skin_winter">#6e9aff</color>
+    <color name="search_line">#f0f0f0</color>
+
+    <color name="scroll_on">#11c4b5</color>
+    <color name="scroll_off">#dddddd</color>
+
+    <color name="sap_my_common_color">#1bb7c3</color>
+
+    <color name="sap_common_dialog_txt">#35383b</color>
+    <color name="sap_web_common_color">#1cb7c2</color>
+    <color name="sap_web_common_start_color">#1CB7B4</color>
+    <color name="sap_web_common_line_color">#b7babd</color>
+    <color name="sap_web_popup_txt_color">#8f9aaa</color>
+
+    <color name="sap_web_common_text_title_color">#535659</color>
+    <color name="sap_web_common_text_sub_color">#a3a6a9</color>
+    <color name="sap_web_common_text_sub2_color">#b7babd</color>
+
+    <color name="sap_web_history_bg_color">#dfe3e6</color>
+    <color name="sap_web_history_tab_txt_color">#35383b</color>
+    <color name="sap_web_common_dev_line">#d5d8db</color>
+
+    <color name="sap_web_incognito_common_color">#364854</color>
+    <color name="sap_web_incognito_common_sel_color">#40364854</color>
+    <color name="sap_web_pageinfo_default_top">#dfe3e6</color>
+
+
+    <color name="sap_web_more_icon_txt">#535659</color>
+    <color name="sap_web_more_icon_sel_txt">#1cb7c2</color>
+
+    <color name="sap_web_more_normal_line">#cbced1</color>
+
+    <color name="sap_web_menu_txt_color">#353535</color>
+    <color name="sap_web_menu_bg_color">#DD000000</color>
+    <color name="sap_web_menu_bg_sel_color">#AA000000</color>
+
+</resources>

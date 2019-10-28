@@ -1,0 +1,80 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/lay_qrcode_list_title"
+        layout="@layout/lay_sap_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/web_common_title_height" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/lay_qrcode_list_title"
+        android:background="@drawable/qr_bg_img">
+
+        <RelativeLayout
+            android:id="@+id/qrcode_list_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="13.3dp"
+            android:layout_marginRight="13.3dp"
+            >
+
+            <View
+                android:layout_marginTop="19dp"
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/sap_web_common_dev_line"
+                />
+
+            <ListView
+                android:id="@+id/qrcode_list_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:scrollbars="none"
+                android:divider="#00000000"
+                android:dividerHeight="0dp"
+                />
+        </RelativeLayout>
+
+
+        <!-- Empty -->
+        <RelativeLayout
+            android:id="@+id/qr_list_empty_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:lineSpacingExtra="10dp"
+                android:text="@string/sap_qrcode_empty_msg"
+                android:textColor="@android:color/white"
+                android:textSize="15sp" />
+        </RelativeLayout>
+        <!--Progress -->
+        <RelativeLayout
+            android:id="@+id/qr_list_progress_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+
+            <ProgressBar
+                android:layout_width="72dp"
+                android:layout_height="66.6dp"
+                android:layout_centerInParent="true"
+                android:indeterminateDrawable="@drawable/common_progress_anim" />
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

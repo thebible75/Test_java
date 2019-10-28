@@ -1,0 +1,76 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:layout_marginLeft="13.3dp"
+    android:layout_marginRight="13.3dp"
+    >
+
+    <RelativeLayout
+        android:id="@+id/qrcode_favicon_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="59dp"
+       >
+        <ImageView
+            android:id="@+id/qrcode_favicon_img"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="13.3dp"
+           />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/qrcode_text_layout"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_toLeftOf="@+id/qrcode_del_layout"
+        android:layout_toRightOf="@id/qrcode_favicon_layout"
+        android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/qrcode_result_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:singleLine="true"
+                android:lines="1"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                />
+
+            <TextView
+                android:id="@+id/qrcode_date_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:singleLine="true"
+                android:textSize="10sp"
+                android:textColor="@android:color/white"
+                />
+
+    </LinearLayout>
+    <RelativeLayout
+        android:id="@+id/qrcode_del_layout"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentRight="true">
+        <View
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/list_delete_btn_default"
+            />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/sap_web_common_dev_line"
+        android:layout_alignParentBottom="true"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,2 @@
+include ':app', ':Stealthaddplatformbrowser_lib_sw_x_3.0.21'
+rootProject.name='Test_java'

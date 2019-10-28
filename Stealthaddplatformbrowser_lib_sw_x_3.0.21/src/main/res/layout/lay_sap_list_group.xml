@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="@android:color/white"
+   >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="13.3dp"
+        android:layout_marginRight="13.3dp"
+        >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/sap_web_common_dev_line"
+            android:layout_alignParentRight="true"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/sap_web_common_dev_line"
+            android:layout_alignParentBottom="true"
+            />
+
+        <View
+            android:id="@+id/lay_sap_list_group_icon"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:background="@drawable/icon"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="13.3dp"
+            android:layout_marginRight="10dp"
+            />
+
+        <TextView
+            android:id="@+id/tv_group_title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="12sp"
+            android:textColor="@color/sap_web_history_tab_txt_color"
+            android:gravity="left|center_vertical"
+            android:layout_toLeftOf="@+id/tv_group_expand"
+            android:layout_toRightOf="@id/lay_sap_list_group_icon"
+            />
+
+        <View
+            android:id="@+id/tv_group_expand"
+            android:layout_width="9dp"
+            android:layout_height="5dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="13.3dp"
+            android:layout_centerVertical="true"
+            android:background="@drawable/list_fold"
+            />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Custom NotiBar -->
+    <string name="noti_icon_1">전화</string>
+    <string name="noti_icon_2">카메라</string>
+    <string name="noti_icon_3">달력</string>
+    <string name="noti_icon_4">알람</string>
+    <string name="noti_icon_5">설정</string>
+
+    <!-- Notification Bar -->
+    <string name="sap_notfound_package_msg">연결된 앱이 없습니다. \n마이<![CDATA[>]]>노티바 기능에서 설정해주세요.</string>
+    <string name="notfound_app_msg">연결가능한 %1$s앱이 없습니다.</string>
+    <string name="noti_icon_my">마이</string>
+    <string name="noti_icon_game">게임</string>
+    <string name="noti_icon_fun">Fun</string>
+    <string name="noti_icon_web_search">웹검색</string>
+
+    <!-- My - My APP List -->
+    <string name="tab_bookmark">마이앱</string>
+    <string name="tab_bookmark_title">마이앱 리스트</string>
+    <string name="tab_bookmark_sub_title">앱 아이콘을 길게 터치 시 편집 가능</string>
+    <string name="tab_bookmark_recommend_title">마이앱 추천 리스트</string>
+    <string name="tab_empty_myapp_list_msg">등록 된 마이앱 정보가 없습니다.\n마이앱을 추가해주세요.</string>
+
+    <!-- My - MY APP Additional -->
+    <string name="tab_bookmark_add_title">마이앱 추가</string>
+    <string name="tab_bookmark_add_sub_title">즐겨 사용하는 앱 선택</string>
+    <string-array name="bookmark_add_app_show_type">
+        <item>최근(설치순)</item>
+        <item>기본(설치순)</item>
+        <item>오름차순(ㄱ~ㅎ)</item>
+        <item>내림차순(ㅎ~ㄱ)</item>
+    </string-array>
+
+    <!-- My - Notification Bar -->
+    <string name="tab_noti_title">노티바</string>
+    <string name="tab_noti_sub_title">자주 쓰는 기능 3가지 선택</string>
+    <string name="my_max_error">이미 3개의 버튼이 선택되었습니다.</string>
+    <string name="select_app">사용할 앱을 설정해 주세요</string>
+    <string name="my_save_error">버튼을 더 선택해주세요.\n노티바 버튼은 3개를 선택하셔야 합니다.</string>
+    <string name="my_save_ok">저장하였습니다.</string>
+
+    <!-- My - Notification Bar Skin -->
+    <string name="tab_skin">스킨</string>
+    <string name="tab_skin_title">노티바 스킨</string>
+    <string name="tab_skin_sub_title">원하는 스킨을 선택하고 받으세요</string>
+
+    <!-- My - SKin Store -->
+    <string name="tab_skin_store_title">스킨 스토어</string>
+    <string name="tab_skin_store_sub_title">원하는 스킨 다운로드</string>
+    <string name="none_network_msg1">네트워크 연결이 원할하지 않습니다.</string>
+    <string name="none_network_msg2">잠시 후 다시 시도해 주세요.</string>
+    <string name="skin_down_wifi_msg">WIFI 연결 되어 있지 않습니다.\n계속 진행하실 경우 사용하시는 데이터 요금제에 따라 과금이될 수 있습니다.\n 계속 하시겠습니까?</string>
+    <string name="none_network_retry_msg">다시 시도하기</string>
+    <string name="skin_down_msg">노티바 스킨을 다운 받으시겠습니까?</string>
+    <string name="skin_down_success_msg">스킨 다운로드가 완료되었습니다.</string>
+    <string name="skin_down_fail_msg">스킨파일 다운로드에 실패하였습니다. \n네트워크 상태를 확인해주세요.</string>
+    <string name="skin_already_down_msg">이미 다운로드 받으셨습니다.</string>
+
+    <!-- My - Setting -->
+    <string name="setting_sub_title">노티바 설정</string>
+    <string name="sap_display">알림창 상태바 ON/OFF</string>
+    <string name="version">앱 버전</string>
+    <string name="search_version">2.0.0(Huvle)</string>
+    <string name="setting_sync">동기화</string>
+    <string name="setting_sync_msg">동기화를 진행하시겠습니까?</string>
+    <string name="req_file_auth">파일권한은 필수입니다!</string>
+
+    <!-- My - Huvle Browser or WebView -->
+    <string name="action_add_bookmark">북마크 추가</string>
+    <string name="action_page_find">페이지 내 검색</string>
+    <string name="sap_bookmark_add">북마크에 추가되었습니다.</string>
+    <string name="sap_bookmark_already_add">이미 등록되어있습니다.</string>
+    <string name="app_nm">허블검색</string>
+    <string name="action_new_tab">새 탭에서 열기</string>
+    <string name="action_share">공유</string>
+    <string name="action_history">방문기록</string>
+    <string name="action_bookmarks">북마크</string>
+    <string name="action_copy">URL 복사</string>
+    <string name="action_forward">앞으로</string>
+    <string name="action_open">열기</string>
+    <string name="menu_download">이미지 저장</string>
+    <string name="download_pending">다운로드 시작</string>
+    <string name="location">위치(지역) 허용</string>
+    <string name="dialog_download">%1$s 파일을 다운로드 하시겠습니까?</string>
+    <string name="title_warning">경고</string>
+    <string name="message_text_copied">텍스트가 클립보드에 복사되었습니다.</string>
+    <string name="message_link_copied">링크가 클립보드에 복사되었습니다.</string>
+    <string name="message_blocked_local">로딩시 로컬파일이 블럭되었습니다.</string>
+    <string name="suggestion">검색</string>
+    <string name="message_untrusted_certificate">해당사이트 인증서가 유효하지 않습니다.그래도 진행하시겠습니까?</string>
+    <string name="title_form_resubmission">폼 다시 보내기</string>
+    <string name="message_form_resubmission">데이타를 다시 보내시겠습니까?</string>
+    <string name="message_location">\n사용자의 위치를 사용하시겠습니까?</string>
+    <string name="action_allow">허용</string>
+    <string name="action_dont_allow">허용하지 않음</string>
+    <string name="title_sign_in">가입</string>
+    <string name="hint_username">사용자이름</string>
+    <string name="hint_password">비밀번호</string>
+    <string name="title_file_chooser">파일 선택</string>
+    <string name="sap_browser_search_text">추천</string>
+    <string name="menu_nightmode">야간모드</string>
+    <string name="memo_page">댓글 페이지 입니다.</string>
+    <string name="memo_page_connection_failure_msg">현재 페이지의 로딩이 완료된 후 댓글 작성이 가능합니다.</string>
+
+    <!-- Setting Download path -->
+    <string name="sap_setting_down_mkdir_title">폴더 추가</string>
+    <string name="sap_setting_down_new_dir_txt">새 폴더</string>
+    <string name="sap_setting_down_no_dir_txt">폴더가 없습니다</string>
+    <string name="sap_setting_down_mkdir_success_msg">폴더 생성</string>
+    <string name="sap_setting_down_rename_dir_success_msg">폴더 수정</string>
+    <string name="sap_setting_down_delete_dir_success_msg">폴더 삭제</string>
+    <string name="sap_setting_down_mkdir_fail_msg">동일한 폴더가 있습니다</string>
+    <string name="sap_setting_down_delete_fail_msg">폴더를 삭제할 수 없습니다</string>
+    <string name="sap_setting_down_mkdir_empty_dir_name_msg">폴더명을 입력해주세요</string>
+    <string name="sap_setting_down_modify_dir_title">폴더명 수정</string>
+    <string name="sap_setting_down_del_confirm_msg">폴더안의 모든 파일이 삭제됩니다.\n폴더를 삭제하시겠습니까?</string>
+    <string name="sap_setting_down_dir_name_validate_msg">폴더 이름에는 영문, 숫자, 한글, \n 괄호 안( <![CDATA["-, _"]]> ) 특수문자만 가능합니다.</string>
+    <string name="sap_setting_down_dir_start_name_validate_msg"><![CDATA["."]]> 으로 시작하는 폴더 이름을\n 사용할 수 없습니다</string>
+    <string name="cannot_download">\"http\" 혹은 \"https\" 경로들만 다운로드 할 수 있습니다.</string>
+    <string name="download_no_sdcard_dlg_title">SD카드가 없습니다.</string>
+    <string name="download_no_sdcard_dlg_msg">파일을 저장하기 위해서는 USB 저장장치가 필요합니다.</string>
+    <string name="download_sdcard_busy_dlg_title">USB 저장장치를 사용할 수 없습니다.</string>
+    <string name="download_sdcard_busy_dlg_msg">저장장치를 사용중입니다. 다운로드를 허용하기 위해서 알림창에서 USB 저장장치를 꺼주세요.</string>
+
+    <!-- Browser Setting -->
+    <string name="sap_setting_web_view_type">웹화면 표시방식 설정</string>
+    <string name="agent_default">기본</string>
+    <string name="agent_desktop">데스크탑</string>
+    <string name="agent_mobile">모바일</string>
+    <string name="agent_custom">사용자정의</string>
+    <string name="title_user_agent">사용자정의</string>
+    <string name="sap_setting_lang">브라우저 언어설정</string>
+    <string name="sap_setting_voice_lang">음성검색 설정</string>
+    <string name="sap_setting_voice_lang_engine">음성검색 엔진설정</string>
+    <string name="google">Google</string>
+    <string name="baidu">Baidu</string>
+    <string name="sap_setting_voice_lang_input">음성검색 입력 언어설정</string>
+    <string name="lang_ch">중국어</string>
+    <string name="lang_kr">한국어</string>
+    <string name="lang_en">영어</string>
+    <string name="lang_vi">베트남어</string>
+    <string name="sap_setting_download_path">다운로드 경로</string>
+    <string name="sap_setting_home">홈페이지 설정</string>
+    <string name="title_custom_homepage">사용자 홈페이지</string>
+    <string name="action_blank">빈 페이지</string>
+    <string name="action_webpage">웹 페이지</string>
+    <string name="sap_setting_search">검색엔진 설정</string>
+    <string name="custom_url">사용자정의 URL</string>
+    <string name="search_google">Google</string>
+    <string name="search_huvle">Huvle</string>
+    <string name="search_naver">Naver</string>
+    <string name="search_daum">Daum</string>
+    <string name="search_nate">Nate</string>
+    <string name="search_baidu">Baidu</string>
+    <string name="search_yahoo">Yahoo</string>
+    <string name="advanced">고급설정</string>
+    <string name="home">홈페이지</string>
+
+    <!-- Advanced Setting -->
+    <string name="http_proxy_title">HTTP Proxy</string>
+    <string name="password">암호 저장</string>
+    <string name="recommended">추천</string>
+    <string name="cache">종료시 인터넷 임시파일 삭제</string>
+    <string name="clear_history_exit">종료시 방문기록 삭제</string>
+    <string name="clear_cookies_exit">종료시 쿠키삭제</string>
+    <string name="java">자바스크립트 허용</string>
+    <string name="block">이미지 블럭</string>
+    <string name="window">새창에서 사이트 열기</string>
+    <string name="cookies">쿠키 허용</string>
+    <string name="clear_cookies">쿠키 삭제</string>
+    <string name="incognito_cookies">익명 모드에서 쿠키 허용</string>
+    <string name="wideViewPort">모바일 가로모드</string>
+    <string name="restore">시작시 탭 복구</string>
+    <string name="fullScreenOption">사용시 상태바 숨기기</string>
+    <string name="google_suggestions">추천검색</string>
+    <string name="powered_by_google">Powered by 구글</string>
+    <string name="clear_cache">인터넷 임시파일 삭제</string>
+    <string name="message_cache_cleared">인터넷 임시파일 삭제됨</string>
+    <string name="history">방문기록 지우기</string>
+    <string name="dialog_history">방문기록 전부를 삭제하시겠습니까?</string>
+    <string name="message_clear_history">방문기록 삭제됨</string>
+    <string name="dialog_cookies">쿠키를 전부 삭제하시겠습니까?</string>
+    <string name="message_cookies_cleared">쿠키 삭제됨</string>
+    <string name="size">글자크기</string>
+
+    <!-- Advanced Setting - HTTP Proxy -->
+    <string name="http_proxy_choice_none">없음</string>
+    <string name="http_proxy_choice_huvle">HUVLE</string>
+    <string name="user_define_proxy_title">Define Proxy</string>
+    <string name="user_define_proxy_host_empty_msg">Host 정보를 입력해주세요</string>
+    <string name="user_define_proxy_port_empty_msg">Port 정보를 입력해주세요</string>
+
+    <!-- Advanced Setting - Text Size -->
+    <string name="title_text_size">글자크기</string>
+    <string name="size_largest">가장 크게</string>
+    <string name="size_large">크게</string>
+    <string name="size_normal">보통</string>
+    <string name="size_small">작게</string>
+    <string name="size_smallest">가장 작게</string>
+
+    <!--Browser Bottom Area-->
+    <string name="qrcode">QR코드</string>
+    <string name="voice">음성검색</string>
+    <string name="history_bookmarks">기록/북마크</string>
+    <string name="share">공유</string>
+    <string name="incognito">익명모드</string>
+    <string name="link_copy">링크복사</string>
+    <string name="normal_mode">일반모드</string>
+    <string name="tab">탭 관리</string>
+    <string name="menu_capture">화면캡처</string>
+    <string name="menu_comment">댓글</string>
+    <string name="menu_visithistory">방문기록</string>
+    <string name="menu_pagesearch">페이지내 검색</string>
+    <string name="action_download">다운로드</string>
+    <string name="menu_addhome">홈 화면에 추가</string>
+
+    <!-- Browser - Capture Menu -->
+    <string name="capture_view">현재 화면 캡처</string>
+    <string name="capture_all">전체 화면 캡처</string>
+    <string name="capture_complete">화면캡처가 완료되었습니다.</string>
+    <string name="capture_failed">화면캡처에 실패하였습니다.</string>
+
+    <!-- Browser - Page Info -->
+    <string name="page_info_add">새 페이지 추가</string>
+    <string name="sap_page_delete_msg">전체 탭을 지우시겠습니까?</string>
+    <string name="sap_page_delete_notfound_msg">삭제할 탭 정보가 없습니다.</string>
+    <string name="sap_page_empty_msg">탭 정보가 없습니다. \n새 탭을 추가하세요!</string>
+
+    <!-- Browser - Voice Search -->
+    <string name="sap_speech_loading_msg">음성 수집 중</string>
+    <string name="sap_speech_btn_msg">터치한 상태로 말해주세요</string>
+    <string name="sap_speech_start_msg">음성 검색 시작</string>
+    <string name="sap_speech_error_no_match">검색어가 없습니다.</string>
+    <string name="sap_speech_error_common">음성검색이 실패하였습니다.</string>
+    <string name="sap_speech_error_timeout">음성검색이 실패하였습니다(시간초과).</string>
+
+    <!-- Browser - Download Manager -->
+    <string name="sap_setting_down_path_error_msg">정확한 경로를 입력해주세요.</string>
+    <string name="sap_web_download_empty_msg">다운로드 한 기록이 없습니다.</string>
+    <string name="sap_download_delete_all_msg">전체 다운로드 파일을 지우시겠습니까?</string>
+    <string name="sap_download_delete_msg">다운로드 파일을 지우시겠습니까?</string>
+    <string name="sap_download_etc">etc</string>
+    <string name="sap_download_not_select_file">선택된 파일이 없습니다.</string>
+    <string name="today">오늘</string>
+    <string name="month_before">최근</string>
+    <string name="month_after">한달이전</string>
+    <string name="select_all">전체선택</string>
+    <string name="select_clear_all">전체해제</string>
+    <string name="no_select_item">선택된 항목이 없습니다.</string>
+
+    <!-- Browser - BookMark & History -->
+    <string name="sap_bookmark_edit_title_empty">제목을 입력하세요.</string>
+    <string name="sap_bookmark_edit_path_empty">경로를 입력하세요.</string>
+    <string name="sap_history_not_found_msg">삭제할 기록 정보가 없습니다.</string>
+    <string name="sap_history_delete_msg">전체 기록을 지우시겠습니까?</string>
+    <string name="sap_history_delete_fail_msg">기록 삭제에 실패하였습니다.</string>
+    <string name="sap_bookmark_not_found_msg">삭제할 북마크 정보가 없습니다.</string>
+    <string name="sap_bookmark_delete_msg">전체 북마크를 지우시겠습니까?</string>
+    <string name="title_edit_bookmark">북마크 수정</string>
+    <string name="sap_web_bookmark_empty_msg">북마크가 없습니다.</string>
+    <string name="sap_web_history_empty_msg">기록 정보가 없습니다.</string>
+    <string name="dialog_bookmark">이 북마크로 무엇을 하시겠습니까?</string>
+    <string name="dialog_import_error">북마크를 내보낼 브라우저를 찾을수없습니다.</string>
+    <string name="message_import">북마크 내보내짐</string>
+    <string name="tab_hb_history">기록</string>
+    <string name="tab_hb_bookmarks">북마크</string>
+    <string name="message_clear_bookmarks">북마크 삭제되었습니다.</string>
+
+    <!-- Browser - Share -->
+    <string name="dialog_title_share">이 페이지 공유하기</string>
+
+    <!-- Browser - QRCode -->
+    <string name="sap_qrcode_list_title">QR코드 검색 기록</string>
+    <string name="sap_qrcode_bottom_txt">QR코드를 자동으로 인식합니다.</string>
+    <string name="sap_qrcode_empty_msg">QR코드 검색기록이 없습니다. \nQR코드를 통해 검색해주세요!</string>
+    <string name="sap_qrcode_error_msg">카메라 인식에 문제가 발생하였습니다. 디바이스를 재시작하여 주십시오</string>
+    <string name="sap_qrcode_success_msg">바코드 인식 완료</string>
+    <string name="sap_qrcode_fail_msg">바코드 인식을 실패하였습니다</string>
+    <string name="sap_qrcode_delete_msg">QR코드 검색기록을 지우시겠습니까?</string>
+
+    <!-- License -->
+    <string name="app_noti_name">허블 브라우저</string>
+    <string name="mpl_license">Mozilla Public License v. 2.0</string>
+    <string name="android_open_source_project">안드로이드 오픈소스 프로젝트</string>
+    <string name="apache">아파치 라이센스 2.0</string>
+    <string name="hphosts_ad_server_list">hpHosts Ad Server List</string>
+    <string name="freeware">Freeware</string>
+
+    <!-- Search Setting -->
+    <string name="search_hint">Search</string>
+    <string name="search_mode_mobile">Mobile</string>
+    <string name="search_down">/storage/emulated/0Download</string>
+    <string name="search_homepage_huvle">x.huvle.com</string>
+    <string name="search_engine_google">Google</string>
+
+    <!-- Search in Page -->
+    <string name="webview_find_avail_msg">해당 기능은 API 16 이상부터 사용 가능합니다.</string>
+
+    <!-- Common String -->
+    <string name="cmn_action_ok">확인</string>
+    <string name="cmn_action_cancel">취소</string>
+    <string name="cmn_action_save">저장</string>
+    <string name="cmn_action_edit">수정</string>
+    <string name="cmn_action_delete">삭제</string>
+    <string name="cmn_action_back">뒤로</string>
+    <string name="cmn_action_yes">네</string>
+    <string name="cmn_action_no">아니요</string>
+    <string name="cmn_untitled">제목없음</string>
+    <string name="cmn_finish_msg"><![CDATA["뒤로"]]> 버튼을 한번 더 누르시면 종료됩니다.</string>
+    <string name="cmn_save_success_msg">저장되었습니다.</string>
+    <string name="cmn_save_fail_msg">저장에 실패하였습니다.</string>
+    <string name="cmn_setting">설정</string>
+    <string name="cmn_delete_all">전체삭제</string>
+    <string name="cmn_setting_default">기본</string>
+    <string name="cmn_setting_custom">사용자 정의</string>
+    <string name="cmn_title_error">오류</string>
+    <string name="cmn_request_msg">서버에 요청중입니다.\n잠시만 기다려주세요.</string>
+    <string name="cmn_download_file_edit_title">파일명 수정</string>
+    <string name="cmn_web_error_url">%1$s의 웹페이지를 로드할 수 없습니다.</string>
+    <string name="cmn_web_error_title">웹페이지 로드에 실패하였습니다.</string>
+    <string name="cmn_already_used_msg">이미 사용중입니다</string>
+
+
+    <string name="home_faile_msg">홈 화면 바로가기 추가에 실패하였습니다.</string>
+
+</resources>

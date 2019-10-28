@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.test_java">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-feature android:name="android.hardware.touchscreen" android:required="false" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+    <application
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:ignore="UnusedAttribute">
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/ic_stat_ic_notification" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/colorAccent" />
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:launchMode="singleInstance"
+            android:clearTaskOnLaunch="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".MyFirebaseMessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity android:name="com.byappsoft.sap.browser.Sap_MainActivity"                 android:clearTaskOnLaunch="true"        android:configChanges="orientation|screenSize|keyboardHidden|keyboard" android:finishOnTaskLaunch="true" android:label="@string/app_name" android:launchMode="singleTask" android:theme="@style/SapLightTheme" android:exported="false"><intent-filter><category android:name="android.intent.category.DEFAULT" /><category android:name="android.intent.category.LAUNCHER" /><category android:name="android.intent.category.BROWSABLE" /><category android:name="android.intent.category.APP_BROWSER" /></intent-filter></activity>
+        <activity android:name="com.byappsoft.sap.browser.utils.Sap_IncognitoActivity"      android:configChanges="orientation|screenSize|keyboardHidden|keyboard" android:label="@string/app_name" android:launchMode="singleTask" android:theme="@style/SapDarkTheme" android:windowSoftInputMode="stateHidden" android:exported="false"><intent-filter><action android:name="android.intent.action.INCOGNITO" /><category android:name="android.intent.category.DEFAULT" /></intent-filter></activity>
+        <activity android:name="com.byappsoft.sap.browser.Sap_BrowserSearchActivity"        android:theme="@android:style/Theme.NoTitleBar"     />
+        <activity android:name="com.byappsoft.sap.launcher.Sap_act_middle"                  android:theme="@android:style/Theme.Dialog"       android:launchMode="singleTask"/>
+        <activity android:name="com.byappsoft.sap.browser.Sap_SettingsActivity"             android:clearTaskOnLaunch="true" android:configChanges="orientation|screenSize|keyboardHidden|keyboard" android:launchMode="singleTask" android:label="@string/cmn_setting" android:theme="@android:style/Theme.NoTitleBar" ><intent-filter><action android:name="android.intent.action.SETTINGS" /><category android:name="android.intent.category.DEFAULT" /></intent-filter></activity>
+        <activity android:name="com.byappsoft.sap.browser.Sap_AdvancedSettingsActivity"     android:configChanges="orientation|screenSize|keyboardHidden|keyboard" android:label="@string/advanced" android:theme="@android:style/Theme.NoTitleBar" ><intent-filter><action android:name="android.intent.action.ADVANCED_SETTINGS" /><category android:name="android.intent.category.DEFAULT" /></intent-filter></activity>
+        <activity android:name="com.byappsoft.sap.browser.download.Sap_DownloadActivity"    android:theme="@android:style/Theme.NoTitleBar"    />
+        <activity android:name="com.byappsoft.sap.browser.Sap_HistoryBookmarksActivity"     android:theme="@android:style/Theme.NoTitleBar"    />
+        <activity android:name="com.byappsoft.sap.browser.Sap_SettingDownActivity"          android:theme="@android:style/Theme.NoTitleBar"    />
+        <activity android:name="com.byappsoft.sap.browser.pageinfo.Sap_PageInfoActivity"    android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar"    />
+        <activity android:name="com.byappsoft.sap.browser.Sap_QRCodeListActivity"           android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar"/>
+        <activity android:name="com.byappsoft.sap.zxing.client.android.CaptureActivity"     android:configChanges="orientation|keyboardHidden" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar.Fullscreen" android:windowSoftInputMode="stateAlwaysHidden" ><intent-filter><action android:name="com.byappsoft.sap.zxing.client.android.SCAN" /><category android:name="android.intent.category.DEFAULT" /></intent-filter></activity>
+        <activity android:name="com.byappsoft.sap.browser.Sap_BrowserUtils"                 android:excludeFromRecents="true" android:theme="@style/browser_util_style" android:exported="false" />
+        <service android:name="com.byappsoft.sap.service.HuvleNotiBarService"               />
+        <service android:name="com.byappsoft.sap.utils.Sap_act_noti_background"             />
+        <service android:name="com.byappsoft.sap.service.BaseRequestService"                />
+        <service android:name="com.byappsoft.sap.cApp.CAppService"                          android:permission="android.permission.BIND_JOB_SERVICE"  android:exported="true" />
+        <receiver android:name="com.byappsoft.sap.utils.Sap_act_noti_receiver"              android:exported="true" />
+        <receiver android:name="com.byappsoft.sap.utils.Sap_act_receiver"                   android:exported="true" android:permission="android.permission.RECEIVE_BOOT_COMPLETED" ><intent-filter><action android:name="android.intent.action.BOOT_COMPLETED" /><action android:name="com.byappsoft.Stealthaddplatform.noti" /><action android:name="android.intent.action.MY_PACKAGE_REPLACED" /></intent-filter></receiver>
+    </application>
+
+</manifest>
